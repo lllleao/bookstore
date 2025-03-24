@@ -1,4 +1,4 @@
-import pytest # type: ignore
+import pytest 
 
 from product.serializers.product_serializer import ProductSerializer
 

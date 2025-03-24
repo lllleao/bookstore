@@ -1,4 +1,4 @@
-from django.db import models # type: ignore
+from django.db import models 
 
 class Category(models.Model):
     title = models.CharField(max_length=100)

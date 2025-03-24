@@ -1,4 +1,4 @@
-from django.db import models # type: ignore
+from django.db import models 
 from ..models.category import Category
 
 

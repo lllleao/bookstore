@@ -1,6 +1,6 @@
-import factory # type: ignore
+import factory 
 
-from django.contrib.auth.models import User # type: ignore
+from django.contrib.auth.models import User
 
 from order.models import Order
 
