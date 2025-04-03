@@ -24,4 +24,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 pytest-django = "^4.10.0"
-
