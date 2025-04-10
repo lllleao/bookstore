@@ -43,13 +43,13 @@ COPY poetry.lock pyproject.toml ./
 COPY README.md ./
 
 # Copiar o código do projeto ANTES da instalação
-COPY . .
 
 # Instalar as dependências e o próprio projeto
+COPY . .
 RUN poetry install --without dev
 
 # Expor a porta padrão do Django
 EXPOSE 8000
 
 # Comando de inicialização
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["poetry", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
