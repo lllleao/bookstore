@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS", "localhost").split(" ")
 
+
 # Application definition
 
 INSTALLED_APPS = [
