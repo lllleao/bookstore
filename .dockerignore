@@ -4,6 +4,7 @@ __pycache__/
 *.pyd
 .Python
 .env
+env/
 .venv
 build/
 develop-eggs/
@@ -23,4 +24,5 @@ var/
 .git/
 .dockerignore
 Dockerfile
-.env.dev
+env.dev
+db.sqlite3
